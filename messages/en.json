@@ -3,5 +3,9 @@
         "example1": "Hello",
         "example2": "How are you?",
         "footer": "This is the footer"
+    },
+    "about": {
+        "example1": "This is about",
+        "example2": "What are you looking for?"
     }
 }

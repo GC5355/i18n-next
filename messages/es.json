@@ -3,5 +3,10 @@
       "example1": "Hola",
       "example2": "Como estas",
       "footer": "este seria el footer"
+    },
+    "about": {
+        "example1": "Esto es el about",
+        "example2": "Que estas buscando?"
     }
-  }
+}
+ 
