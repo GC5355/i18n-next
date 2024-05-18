@@ -8,13 +8,15 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  console.log(locale);
+  
   return (
     <html lang={locale}>
       <body>
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
