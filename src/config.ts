@@ -12,7 +12,7 @@ export const pathnames = {
   '/': '/',
   '/about': {
     en: '/about',
-    es: '/acerca de'
+    es: '/acerca'
   }
 } satisfies Pathnames<typeof locales>;
 

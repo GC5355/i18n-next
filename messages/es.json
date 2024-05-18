@@ -1,12 +1,27 @@
 {
-    "Home": {
-      "example1": "Hola",
-      "example2": "Como estas",
-      "footer": "este seria el footer"
-    },
-    "about": {
-        "example1": "Esto es el about",
-        "example2": "Que estas buscando?"
-    }
+  "Home": {
+    "example1": "Hola",
+    "example2": "Como estas",
+    "footer": "este seria el footer"
+  },
+  "about": {
+    "example1": "Esto es el about",
+    "example2": "Que estas buscando?"
+  },
+  "Navigation": {
+    "home": "Casa",
+    "about": "Acerca de"
+  },
+  "LocaleSwitcher": {
+    "label": "cambiar lenguaje",
+    "locale": "{locale, select, es {es ESP} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  }
 }
- 

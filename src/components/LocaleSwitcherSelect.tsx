@@ -1,6 +1,6 @@
 'use client';
 
-
+import clsx from 'clsx';
 import {useParams} from 'next/navigation';
 import {ChangeEvent, ReactNode, useTransition} from 'react';
 import {useRouter, usePathname} from '@/navigation';
@@ -36,7 +36,10 @@ export default function LocaleSwitcherSelect({
 
   return (
     <label
-
+      className={clsx(
+        'relative text-gray-400',
+        isPending && 'transition-opacity [&:disabled]:opacity-30'
+      )}
     >
       <p className="sr-only">{label}</p>
       <select

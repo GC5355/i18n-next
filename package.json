@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "clsx": "^2.1.1",
+    "lodash": "^4.17.21",
     "next": "14.2.3",
     "next-intl": "^3.14.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

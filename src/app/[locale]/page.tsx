@@ -10,11 +10,11 @@ export default function IndexPage({params: {locale}}: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
 
-  const t = useTranslations('IndexPage');
+  const t = useTranslations('Home');
 
   return (
-    <PageLayout title={t('title')}>
-     
+    <PageLayout title={t('example1')}>
+     <div>{t('example2')}</div>
     </PageLayout>
   );
 }
