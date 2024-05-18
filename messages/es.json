@@ -10,7 +10,8 @@
   },
   "Navigation": {
     "home": "Casa",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "contact": "Contacto"
   },
   "LocaleSwitcher": {
     "label": "cambiar lenguaje",
@@ -23,5 +24,9 @@
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
     "title": "Page not found"
+  },
+  "Contact": {
+    "texto1": "Contacto ESP",
+    "texto2": "pagina contactito"
   }
 }

@@ -10,18 +10,23 @@
     },
     "Navigation": {
         "home": "Home",
-        "about": "About"
+        "about": "About",
+        "contact": "Contact"
     },
     "LocaleSwitcher": {
         "label": "Change language",
         "locale": "{locale, select, es {es ESP} en {en English} other {Unknown}}"
-      },
+    },
     "Error": {
         "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
         "title": "Something went wrong!"
     },
-  "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
-  }
+    "NotFoundPage": {
+        "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+        "title": "Page not found"
+    },
+    "Contact": {
+        "texto1": "Contacto ENG.",
+        "texto2": "Contact page"
+    }
 }
