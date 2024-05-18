@@ -1,5 +1,12 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import {NextIntlClientProvider} from 'next-intl';
+import {
+  getMessages,
+  getTranslations,
+  unstable_setRequestLocale
+} from 'next-intl/server';
+import Navigation from '@/components/Navigation';
 
 export default async function LocaleLayout({
   children,
@@ -8,15 +15,21 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  console.log(locale);
+  // Enable static rendering
+  unstable_setRequestLocale(locale);
+
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
   
   return (
-    <html lang={locale}>
-      <body>
-        <Navbar />
+    <html className="h-full" lang={locale}>
+    <body>
+      <NextIntlClientProvider messages={messages}>
+        <Navigation />
         {children}
-        <Footer />
-      </body>
-    </html>
+      </NextIntlClientProvider>
+    </body>
+  </html>
   );
 }
